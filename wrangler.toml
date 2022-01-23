@@ -1,8 +1,12 @@
 name = "cloudflare-todos"
 type = "javascript"
 
-account_id = ""
+account_id = "8cb16a602854c62f65b10b26d45aaee7"
 workers_dev = true
 route = ""
 zone_id = ""
 compatibility_date = "2022-01-22"
+
+kv_namespaces = [
+         { binding = "TODOS", id = "70ad7170b387457db59cb90c5e50b19f" }
+]
